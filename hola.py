@@ -80,3 +80,7 @@ while True:
 
         # Puedes cambiar el laberinto actual asignando uno de los ejemplos
         laberinto = laberinto_grande  # Cambia a laberinto_multifinal o laberinto_obstaculos si lo deseas
+
+
+    for i in range(5):
+        print("prinst", i + 1)
