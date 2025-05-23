@@ -44,3 +44,39 @@ while True:
         mover(-1, 0)
     elif movimiento == "d":
         mover(1, 0)
+
+
+        # Ejemplo 1: Laberinto más grande
+        laberinto_grande = [
+            ["#", "#", "#", "#", "#", "#", "#", "#"],
+            ["#", " ", " ", " ", "#", " ", " ", "#"],
+            ["#", " ", "#", " ", "#", " ", "#", "#"],
+            ["#", " ", "#", " ", " ", " ", " ", "#"],
+            ["#", " ", "#", "#", "#", "#", " ", "#"],
+            ["#", " ", " ", " ", " ", "#", " ", "#"],
+            ["#", "#", "#", "#", " ", "#", "F", "#"],
+            ["#", "#", "#", "#", "#", "#", "#", "#"]
+        ]
+
+        # Ejemplo 2: Laberinto con múltiples finales
+        laberinto_multifinal = [
+            ["#", "#", "#", "#", "#", "#"],
+            ["#", " ", " ", " ", "F", "#"],
+            ["#", " ", "#", " ", "#", "#"],
+            ["#", " ", "#", " ", " ", "#"],
+            ["#", "F", " ", "#", " ", "#"],
+            ["#", "#", "#", "#", "#", "#"]
+        ]
+
+        # Ejemplo 3: Laberinto con obstáculos adicionales
+        laberinto_obstaculos = [
+            ["#", "#", "#", "#", "#", "#"],
+            ["#", " ", " ", " ", "#", "#"],
+            ["#", " ", "#", "O", " ", "#"],
+            ["#", " ", "#", "#", " ", "#"],
+            ["#", " ", "O", "#", "F", "#"],
+            ["#", "#", "#", "#", "#", "#"]
+        ]
+
+        # Puedes cambiar el laberinto actual asignando uno de los ejemplos
+        laberinto = laberinto_grande  # Cambia a laberinto_multifinal o laberinto_obstaculos si lo deseas
